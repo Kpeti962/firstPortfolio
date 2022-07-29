@@ -1,0 +1,33 @@
+.mySkillsSection {
+  margin-top: 0;
+  height: 700px;
+  background-image: linear-gradient(to bottom, #e4e4e4 7%, #242933 100%);
+}
+
+.mySkillsTitle {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 80px;
+  color: #767779;
+  position: sticky;
+  top: 5px;
+}
+.skills {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+
+  .vanillasection {
+    margin: 0 200px 0 200px;
+  }
+  .reactSection {
+    margin: 0 200px 0 200px;
+  }
+
+  img {
+    width: 170px;
+    height: 150px;
+    border-radius: 20px;
+  }
+}
