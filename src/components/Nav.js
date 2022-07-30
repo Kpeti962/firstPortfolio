@@ -1,47 +1,83 @@
-import React from 'react';
+import React from "react";
 import styled from "styled-components";
 
-
-
-
 const Nav = () => {
-    return (
-      <StyledNav>
-        <ul>
-          <li>Home</li>
-          <li>About Me</li>
-          <li>My Projects</li>
-        </ul>
-      </StyledNav>
-    );
-  };
-  
-  const StyledNav = styled.nav`
-    background: #242933;
-    padding-right: 5rem;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    color: white;
-    position: sticky;
-    top: 0;
-    cursor: pointer;
-    ul {
-      display: flex;
-      
-      justify-content: space-around;
-      li{
-          margin: 0rem 3rem 0rem 3rem;
-          list-style-type: none;
-          
-          :hover{
-            background: gray;
-            transition: all ease-in-out 0.2s;
-            border-radius: 10px;
-          }
-      }
+  // DIY dont repeat yourself
+
+  const navElements = [
+    { name: "Welcome Text", src: "" },
+    { name: "About Me ", src: "" },
+    { name: "My Skills", src: "" },
+    { name: "My Projects", src: "" },
+    { name: "Contact", src: "" },
+  ];
+
+  const navElementClickHandler = (element) => {
+    if (element.name === "Home") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
     }
-  `;
+  };
 
+  return (
+    <StyledNav>
+      <div className="homeWrapper">
+        <div
+          className="navItem"
+          onClick={() => navElementClickHandler({ name: "Home", src: "" })}
+        >
+          Home
+        </div>
+      </div>
+      <ul>
+        {navElements.map((element, index) => (
+          <li
+            className="navItem"
+            key={index}
+            onClick={() => navElementClickHandler(element)}
+          >
+            {element.name}
+          </li>
+        ))}
+      </ul>
+    </StyledNav>
+  );
+};
 
-export default Nav
+const StyledNav = styled.nav`
+  width: 100%;
+  z-index: 2;
+  background: #242933;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: fixed;
+  top: 0;
+  cursor: pointer;
+  ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .navItem {
+    padding: 8px;
+    margin: 0 10px;
+    list-style-type: none;
+    border-radius: 10px;
+    transition: all ease-in-out 0.2s;
+    :hover {
+      background: gray;
+    }
+  }
+  .homeWrapper {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+    div {
+      width: fit-content;
+    }
+  }
+`;
+
+export default Nav;

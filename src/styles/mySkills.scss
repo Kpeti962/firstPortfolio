@@ -1,33 +1,39 @@
 .mySkillsSection {
-  margin-top: 0;
-  height: 700px;
   background-image: linear-gradient(to bottom, #e4e4e4 7%, #242933 100%);
 }
-
-.mySkillsTitle {
+.skillsContainer {
   text-align: center;
-  font-size: 2rem;
-  font-weight: bolder;
-  margin-bottom: 80px;
-  color: #767779;
-  position: sticky;
-  top: 5px;
-}
-.skills {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 20px;
 
-  .vanillasection {
-    margin: 0 200px 0 200px;
-  }
-  .reactSection {
-    margin: 0 200px 0 200px;
+  .skillCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h4 {
+      text-align: center;
+      width: 80%;
+    }
   }
 
   img {
-    width: 170px;
+    width: 80%;
     height: 150px;
+    object-fit: contain;
     border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .skillsContainer {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .skillsContainer {
+    grid-template-columns: auto;
   }
 }

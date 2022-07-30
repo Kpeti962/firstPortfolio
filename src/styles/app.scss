@@ -1,6 +1,13 @@
+@import "./aboutMe.scss";
+@import "./mySkills.scss";
+@import "./myProjects.scss";
 
-
-
-@import './aboutMe.scss';
-@import './mySkills.scss';
-@import './myProjects.scss';
+.App {
+  margin: 0px auto;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}

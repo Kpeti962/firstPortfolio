@@ -4,7 +4,7 @@ import { selfImgAnim, selfShortStoryAnim } from "../animations";
 import { useInView } from "react-intersection-observer";
 import { useAnimation, motion } from "framer-motion";
 import styled from "styled-components";
-
+import TitleComponent from "./TitleComponent";
 
 const AboutMe = () => {
   const controls = useAnimation();
@@ -12,26 +12,24 @@ const AboutMe = () => {
   useEffect(() => {
     if (inView) {
       controls.start("visible");
-    } 
+    }
   }, [controls, inView]);
 
   return (
     <div className="aboutMeSection">
-      <div className="aboutMeTitle">About Me</div>
+      <TitleComponent title={"About me"} />
       <div className="shortStoryAndImg">
         <div className="selfImg">
-          <img
-            src={me1}
-        
-            
-          />
+          <img src={me1} />
         </div>
         <div className="shortStory">
-          <h3>I have been learning to be a frontend
-          developer since May 2022 under the influence of one of my friends. The
-          more I delved deeper into its mysteries, the more I liked this
-          profession. In this portfolio I try to show everything I've learned so far,
-          but the journey continues...</h3>
+          <h3>
+            I have been learning to be a frontend developer since May 2022 under
+            the influence of one of my friends. The more I delved deeper into
+            its mysteries, the more I liked this profession. In this portfolio I
+            try to show everything I've learned so far, but the journey
+            continues...
+          </h3>
         </div>
       </div>
     </div>
@@ -39,6 +37,3 @@ const AboutMe = () => {
 };
 
 export default AboutMe;
-
-
-
