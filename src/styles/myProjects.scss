@@ -13,8 +13,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  h5 {
+  h4 {
     width: 300px;
+    text-align: center;
   }
   .projectImgWrapper {
     img {
@@ -22,7 +23,6 @@
       height: 210px;
       object-fit: cover;
       border-radius: 30px;
-      cursor: pointer;
     }
     position: relative;
     filter: grayscale(70%);
@@ -36,11 +36,17 @@
       display: flex;
       justify-content: center;
       position: absolute;
-      top: 50%;
+      top: 65%;
       left: 50%;
       transform: translate(-50%, -50%);
       button {
         margin: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        opacity: 0.9;
+        &:hover{
+          box-shadow: 2px 2px 2px  gray;
+        }
       }
     }
   }

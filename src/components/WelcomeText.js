@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { titleAnim, nameAnim } from "../animations";
 import styled from "styled-components";
+import Lines from "./Lines";
 
 const WelcomeText = () => {
   return (
@@ -15,13 +16,14 @@ const WelcomeText = () => {
           and I am a Junior Frontend Developer
         </StyledNameAndJob>
       </StyledSummary>
+      <Lines />
     </StyledPres>
   );
 };
 
 const StyledPres = styled.div`
   width: 100%;
-  height: calc(100vh - 66px);
+  height: calc(100vh - 9px);
   transform: translateY(-20px);
   /* background: #242933; */
 `;

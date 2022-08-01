@@ -52,7 +52,7 @@ export const selfShortStoryAnim = {
   hidden: { opacity: 0, x: 150 },
 };
 
-export const spiderWebAnim = {
+export const linesAnim = {
   hidden: {
     opacity: 0,
     pathLength: 0,

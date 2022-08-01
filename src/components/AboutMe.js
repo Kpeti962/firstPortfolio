@@ -26,8 +26,8 @@ const AboutMe = () => {
           <h3>
             I have been learning to be a frontend developer since May 2022 under
             the influence of one of my friends. The more I delved deeper into
-            its mysteries, the more I liked this profession. In this portfolio I
-            try to show everything I've learned so far, but the journey
+            its mysteries, the more I liked this profession. I know I still have a long way to go, but I think I'm on the right track. In this portfolio I
+            try to show everything I've learned so far, and the journey
             continues...
           </h3>
         </div>

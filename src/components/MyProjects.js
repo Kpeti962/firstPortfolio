@@ -26,10 +26,10 @@ const MyProjects = () => {
     {
       projectName: "Shopping List",
       imgSrc: shoppingList,
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,est. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,est. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,est.",
+      text: "That Shopping List was my first react application. Its appearance and some functions still need to be refined, but in essence it works properly. I like the way the shopping list application is built, as there are a lot of functions that need to be used in everyday programming.",
       links: {
-        projectLink: "",
-        githubLink: "",
+        projectLink: "https://kpeti962.github.io/ReactShoppingList/",
+        githubLink: "https://github.com/Kpeti962/ReactShoppingList",
       },
       isHovering: isHoveringShoppingList,
       setterFnc: setIsHoveringShoppingList,
@@ -37,10 +37,10 @@ const MyProjects = () => {
     {
       projectName: "Music Player",
       imgSrc: musicPlayer,
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,est. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,est. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,est.",
+      text: " I watch a lot of courses that I can learn from, and I created this music player application during one of the course materials. Making this was very exciting and full of obstacles, so I really enjoyed it.",
       links: {
-        projectLink: "",
-        githubLink: "",
+        projectLink: "https://kpeti962.github.io/musicPlayerReact/",
+        githubLink: "https://github.com/Kpeti962/musicPlayerReact",
       },
       isHovering: isHoveringMusicPlayer,
       setterFnc: setIsHoveringMusicPlayer,
@@ -48,10 +48,10 @@ const MyProjects = () => {
     {
       projectName: "Pizza Comparison",
       imgSrc: pizzaComparison,
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,est. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,est. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,est.",
+      text: "This idea was born when I was a student, when we still had to spend a little money in the dormitory. This project is rudimentary. I would like to expand it with other types of food and additional comparison options.",
       links: {
-        projectLink: "",
-        githubLink: "",
+        projectLink: "https://kpeti962.github.io/reactPizzaComparison/",
+        githubLink: "https://github.com/Kpeti962/reactPizzaComparison",
       },
       isHovering: isHoveringPizzaComparison,
       setterFnc: setIsHoveringPizzaComparison,
@@ -64,7 +64,7 @@ const MyProjects = () => {
       <div className="projectWrapper">
         {projectArray.map((project, index) => (
           <div key={index} className="projectCard">
-            <h4>{project.projectName}</h4>
+            <h3>{project.projectName}</h3>
             <div
               onMouseEnter={() => hoverHandler(project)}
               onMouseLeave={() => hoverHandler(project)}
@@ -84,7 +84,7 @@ const MyProjects = () => {
                 </div>
               )}
             </div>
-            <h5>{project.text}</h5>
+            <h4>{project.text}</h4>
           </div>
         ))}
       </div>
