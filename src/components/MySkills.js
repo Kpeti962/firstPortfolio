@@ -18,7 +18,7 @@ const MySkills = () => {
     },
     {
       src: vanilla,
-      text: "Like many people who start learning javascript, I started using vanilla js to learn the basics of this language. I've learnt DOM manipulation, syntax and basic construct and many other cool stuff.",
+      text: "Like many people who start learning javascript, I started using vanilla js to learn the basics of this language. I've learnt DOM manipulation, loops, syntax and basic construct and many other cool stuff.",
     },
     {
       src: react,
