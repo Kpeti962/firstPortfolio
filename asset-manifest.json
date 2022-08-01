@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/firstPortfolio/static/css/main.72e301e1.css",
-    "main.js": "/firstPortfolio/static/js/main.2dfa1412.js",
+    "main.css": "/firstPortfolio/static/css/main.720943f7.css",
+    "main.js": "/firstPortfolio/static/js/main.b73d9267.js",
     "static/js/787.1ed0c42c.chunk.js": "/firstPortfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/musicPlayer.png": "/firstPortfolio/static/media/musicPlayer.6bcb72336f5381f75f77.png",
     "static/media/me1.png": "/firstPortfolio/static/media/me1.0f3d03f99a7149b366bf.png",
     "static/media/react.png": "/firstPortfolio/static/media/react.8a6fc0a24a800d1e0f4a.png",
     "static/media/shoppingList.png": "/firstPortfolio/static/media/shoppingList.08f3dd253a86a34e4c98.png",
+    "static/media/html.png": "/firstPortfolio/static/media/html.5f77e90e11607bf9b3e1.png",
+    "static/media/css.png": "/firstPortfolio/static/media/css.de88f6dc082cdf8bbe67.png",
     "static/media/pizzaComparison.png": "/firstPortfolio/static/media/pizzaComparison.f8e4a51e528581eb369c.png",
     "static/media/vanillasJS.png": "/firstPortfolio/static/media/vanillasJS.940765f470ddd506af04.png",
     "index.html": "/firstPortfolio/index.html",
-    "main.72e301e1.css.map": "/firstPortfolio/static/css/main.72e301e1.css.map",
-    "main.2dfa1412.js.map": "/firstPortfolio/static/js/main.2dfa1412.js.map",
+    "main.720943f7.css.map": "/firstPortfolio/static/css/main.720943f7.css.map",
+    "main.b73d9267.js.map": "/firstPortfolio/static/js/main.b73d9267.js.map",
     "787.1ed0c42c.chunk.js.map": "/firstPortfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72e301e1.css",
-    "static/js/main.2dfa1412.js"
+    "static/css/main.720943f7.css",
+    "static/js/main.b73d9267.js"
   ]
 }
