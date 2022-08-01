@@ -13,7 +13,7 @@ const WelcomeText = () => {
           Hello, I'm Péter Koncz,
         </StyledNameAndJob>
         <StyledNameAndJob variants={nameAnim} initial="hidden" animate="show">
-          and I am a Junior Frontend Developer
+          and I am going to be a Junior Frontend Developer
         </StyledNameAndJob>
       </StyledSummary>
       <Lines />
