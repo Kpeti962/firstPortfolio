@@ -16,7 +16,7 @@ const WelcomeText = () => {
           and I am going to be a Junior Frontend Developer
         </StyledNameAndJob>
       </StyledSummary>
-      <Lines />
+      {/* <Lines /> */}
     </StyledPres>
   );
 };
