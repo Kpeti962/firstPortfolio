@@ -2,15 +2,16 @@ import React from "react";
 import styled from "styled-components";
 
 const Nav = () => {
-  // DIY dont repeat yourself
+  
+  //Not ready for showing
 
-  const navElements = [
+/*   const navElements = [
     { name: "Welcome Text", src: "" },
     { name: "About Me ", src: "" },
     { name: "My Skills", src: "" },
     { name: "My Projects", src: "" },
     { name: "Contact", src: "" },
-  ];
+  ]; */
 
   const navElementClickHandler = (element) => {
     if (element.name === "Home") {
@@ -28,7 +29,7 @@ const Nav = () => {
           Home
         </div>
       </div>
-      <ul>
+     {/*  <ul>
         {navElements.map((element, index) => (
           <li
             className="navItem"
@@ -38,7 +39,7 @@ const Nav = () => {
             {element.name}
           </li>
         ))}
-      </ul>
+      </ul> */}
     </StyledNav>
   );
 };
