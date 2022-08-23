@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/firstPortfolio/static/css/main.dc53b1c3.css",
-    "main.js": "/firstPortfolio/static/js/main.2f0e971a.js",
+    "main.css": "/firstPortfolio/static/css/main.63d9c5ce.css",
+    "main.js": "/firstPortfolio/static/js/main.44381d70.js",
     "static/js/787.1ed0c42c.chunk.js": "/firstPortfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/petipizza.png": "/firstPortfolio/static/media/petipizza.593cac8e18da17eecbf1.png",
     "static/media/musicPlayer.png": "/firstPortfolio/static/media/musicPlayer.6bcb72336f5381f75f77.png",
     "static/media/me1.png": "/firstPortfolio/static/media/me1.0f3d03f99a7149b366bf.png",
     "static/media/react.png": "/firstPortfolio/static/media/react.8a6fc0a24a800d1e0f4a.png",
@@ -12,12 +13,12 @@
     "static/media/pizzaComparison.png": "/firstPortfolio/static/media/pizzaComparison.f8e4a51e528581eb369c.png",
     "static/media/vanillasJS.png": "/firstPortfolio/static/media/vanillasJS.940765f470ddd506af04.png",
     "index.html": "/firstPortfolio/index.html",
-    "main.dc53b1c3.css.map": "/firstPortfolio/static/css/main.dc53b1c3.css.map",
-    "main.2f0e971a.js.map": "/firstPortfolio/static/js/main.2f0e971a.js.map",
+    "main.63d9c5ce.css.map": "/firstPortfolio/static/css/main.63d9c5ce.css.map",
+    "main.44381d70.js.map": "/firstPortfolio/static/js/main.44381d70.js.map",
     "787.1ed0c42c.chunk.js.map": "/firstPortfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc53b1c3.css",
-    "static/js/main.2f0e971a.js"
+    "static/css/main.63d9c5ce.css",
+    "static/js/main.44381d70.js"
   ]
 }
