@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import musicPlayer from "../img/musicPlayer.png";
 import shoppingList from "../img/shoppingList.png";
 import pizzaComparison from "../img/pizzaComparison.png";
+import petipizza from "../img/petipizza.png";
 import TitleComponent from "./TitleComponent";
 
 const MyProjects = () => {
@@ -56,8 +57,19 @@ const MyProjects = () => {
       isHovering: isHoveringPizzaComparison,
       setterFnc: setIsHoveringPizzaComparison,
     },
+    {
+      projectName: "Restaurant",
+      imgSrc: petipizza,
+      text: "This is the latest website I'm making. I intend this to be a bigger project and I'm trying to put everything I can into it, that's why this is not a finished website, it's under continuous development.",
+      links: {
+        projectLink: "https://kpeti962.github.io/peti_pizza",
+        githubLink: "https://github.com/Kpeti962/peti_pizza",
+      },
+      isHovering: isHoveringPizzaComparison,
+      setterFnc: setIsHoveringPizzaComparison,
+    },
   ];
-  
+
   return (
     <div className="myProjectsSection">
       <TitleComponent title={"My Projects"} />
