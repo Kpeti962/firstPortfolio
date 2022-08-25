@@ -3,6 +3,7 @@ import musicPlayer from "../img/musicPlayer.png";
 import shoppingList from "../img/shoppingList.png";
 import pizzaComparison from "../img/pizzaComparison.png";
 import petipizza from "../img/petipizza.png";
+import weather from "../img/weather.png";
 import TitleComponent from "./TitleComponent";
 
 const MyProjects = () => {
@@ -64,6 +65,17 @@ const MyProjects = () => {
       links: {
         projectLink: "https://kpeti962.github.io/peti_pizza",
         githubLink: "https://github.com/Kpeti962/peti_pizza",
+      },
+      isHovering: isHoveringPizzaComparison,
+      setterFnc: setIsHoveringPizzaComparison,
+    },
+    {
+      projectName: "Meteorological App",
+      imgSrc: weather,
+      text: "This program presents the weather of Hungary using a weather api. With this application, I practice the operation of the APIs, but basically I started doing it just for fun. It is a very rudimentary program and its line of code is long, full of unnecessary code, which I would like to shorten and make it more beautiful in the future, but it can be promising",
+      links: {
+        projectLink: "https://kpeti962.github.io/meteorologicalFunAppForApis/",
+        githubLink: "https://github.com/Kpeti962/meteorologicalFunAppForApis",
       },
       isHovering: isHoveringPizzaComparison,
       setterFnc: setIsHoveringPizzaComparison,
