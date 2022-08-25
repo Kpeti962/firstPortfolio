@@ -11,6 +11,10 @@ const MyProjects = () => {
   const [isHoveringMusicPlayer, setIsHoveringMusicPlayer] = useState(false);
   const [isHoveringPizzaComparison, setIsHoveringPizzaComparison] =
     useState(false);
+  const [isHoveringRestaurant, setIsHoveringRestaurant] =
+    useState(false);
+  const [isHoveringMeteorological, setIsHoveringMeteorological] =
+    useState(false);
 
   const hoverHandler = (project) => {
     project.setterFnc(!project.isHovering);
@@ -66,8 +70,8 @@ const MyProjects = () => {
         projectLink: "https://kpeti962.github.io/peti_pizza",
         githubLink: "https://github.com/Kpeti962/peti_pizza",
       },
-      isHovering: isHoveringPizzaComparison,
-      setterFnc: setIsHoveringPizzaComparison,
+      isHovering: isHoveringRestaurant,
+      setterFnc: setIsHoveringRestaurant,
     },
     {
       projectName: "Meteorological App",
@@ -77,8 +81,8 @@ const MyProjects = () => {
         projectLink: "https://kpeti962.github.io/meteorologicalFunAppForApis/",
         githubLink: "https://github.com/Kpeti962/meteorologicalFunAppForApis",
       },
-      isHovering: isHoveringPizzaComparison,
-      setterFnc: setIsHoveringPizzaComparison,
+      isHovering: isHoveringMeteorological,
+      setterFnc: setIsHoveringMeteorological,
     },
   ];
 
