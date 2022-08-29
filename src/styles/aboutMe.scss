@@ -1,5 +1,5 @@
 .aboutMeSection {
-  background-image: linear-gradient(to bottom, #242933 50%, #e4e4e4 100%);
+  background-image: linear-gradient(to bottom, #242933 50%, #aaaaaa 100%);
   height: calc;
 }
 .shortStoryAndImg {
@@ -12,15 +12,16 @@
   }
   h3 {
     text-align: center;
-    transform: translateY(150px);
+   /*  transform: translateY(150px); */
     color: #e4e4e4;
   }
   h2{
-    color: #808080;
+    color: #474747;
   }
 }
 .shortStory {
   width: 40%;
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -31,5 +32,9 @@
       transform: translateY(0);
       font-size: 14px;
     }
+  }
+  .shortStory {
+    width: 70%;
+    
   }
 }
