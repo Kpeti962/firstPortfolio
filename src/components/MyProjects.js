@@ -30,17 +30,6 @@ const MyProjects = () => {
 
   const projectArray = [
     {
-      projectName: "Shopping List",
-      imgSrc: shoppingList,
-      text: "That Shopping List was my first react application. Its appearance and some functions still need to be refined, but in essence it works properly. I like the way the shopping list application is built, as there are a lot of functions that need to be used in everyday programming.",
-      links: {
-        projectLink: "https://kpeti962.github.io/ReactShoppingList/",
-        githubLink: "https://github.com/Kpeti962/ReactShoppingList",
-      },
-      isHovering: isHoveringShoppingList,
-      setterFnc: setIsHoveringShoppingList,
-    },
-    {
       projectName: "Music Player",
       imgSrc: musicPlayer,
       text: " I watch a lot of courses that I can learn from, and I created this music player application during one of the course materials. Making this was very exciting and full of obstacles, so I really enjoyed it.",
@@ -65,7 +54,7 @@ const MyProjects = () => {
     {
       projectName: "Restaurant",
       imgSrc: petipizza,
-      text: "This is the latest website I'm making. I intend this to be a bigger project and I'm trying to put everything I can into it, that's why this is not a finished website, it's under continuous development.",
+      text: "This is the latest relatively complex website I'm making. I intend this to be a bigger project and I'm trying to put everything I can into it, that's why this is not a finished website, it's under continuous development.",
       links: {
         projectLink: "https://kpeti962.github.io/peti_pizza",
         githubLink: "https://github.com/Kpeti962/peti_pizza",
