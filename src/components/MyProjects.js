@@ -7,7 +7,7 @@ import weather from "../img/weather.png";
 import TitleComponent from "./TitleComponent";
 
 const MyProjects = () => {
-  const [isHoveringShoppingList, setIsHoveringShoppingList] = useState(false);
+
   const [isHoveringMusicPlayer, setIsHoveringMusicPlayer] = useState(false);
   const [isHoveringPizzaComparison, setIsHoveringPizzaComparison] =
     useState(false);
