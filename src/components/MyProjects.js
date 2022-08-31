@@ -3,6 +3,7 @@ import musicPlayer from "../img/musicPlayer.png";
 import shoppingList from "../img/shoppingList.png";
 import pizzaComparison from "../img/pizzaComparison.png";
 import petipizza from "../img/petipizza.png";
+import todo from "../img/todo.png";
 import weather from "../img/weather.png";
 import TitleComponent from "./TitleComponent";
 
@@ -10,11 +11,12 @@ const MyProjects = () => {
 
   const [isHoveringMusicPlayer, setIsHoveringMusicPlayer] = useState(false);
   const [isHoveringPizzaComparison, setIsHoveringPizzaComparison] =
-    useState(false);
+  useState(false);
   const [isHoveringRestaurant, setIsHoveringRestaurant] =
-    useState(false);
+  useState(false);
+  const [isHoveringTodo, setIsHoveringTodo] = useState(false);
   const [isHoveringMeteorological, setIsHoveringMeteorological] =
-    useState(false);
+  useState(false);
 
   const hoverHandler = (project) => {
     project.setterFnc(!project.isHovering);
@@ -61,6 +63,17 @@ const MyProjects = () => {
       },
       isHovering: isHoveringRestaurant,
       setterFnc: setIsHoveringRestaurant,
+    },
+    {
+      projectName: "Todo List",
+      imgSrc: todo,
+      text: "I love Todo Lists. You can include features that you can learn a lot from in terms of your later career. I mainly practiced Local Storage in this app.",
+      links: {
+        projectLink: "https://kpeti962.github.io/localStoreToDo/",
+        githubLink: "https://github.com/Kpeti962/localStoreToDo",
+      },
+      isHovering: isHoveringTodo,
+      setterFnc: setIsHoveringTodo,
     },
     {
       projectName: "Meteorological App",
