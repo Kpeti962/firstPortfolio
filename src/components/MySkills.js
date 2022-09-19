@@ -3,6 +3,8 @@ import vanilla from "../img/vanillasJS.png";
 import react from "../img/react.png";
 import css from "../img/css.png";
 import html from "../img/html.png";
+import tailwind from "../img/tailwind.png";
+import firebase from "../img/firebase.png";
 import TitleComponent from "./TitleComponent";
 
 
@@ -22,7 +24,15 @@ const MySkills = () => {
     },
     {
       src: react,
-      text: "As I felt more and more confident, I started learning to program in react and I was impressed by how much different, more difficult, but still much simpler programming in react is. I just started to learn the first steps of the APIs",
+      text: "As I felt more and more confident, I started learning to program in ReactJS and I was impressed by how much different, more difficult, but still much simpler programming in React is.",
+    },
+    {
+      src: tailwind,
+      text: "I like to use the Bootstrap too, but I prefer Tailwind CSS as a third party library",
+    },
+    {
+      src: firebase,
+      text: "I started to learn the backend through Firebase",
     },
   ];
 

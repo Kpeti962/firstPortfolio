@@ -5,6 +5,7 @@ import pizzaComparison from "../img/pizzaComparison.png";
 import petipizza from "../img/petipizza.png";
 import todo from "../img/todo.png";
 import weather from "../img/weather.png";
+import restaurant from "../img/restaurant.png";
 import TitleComponent from "./TitleComponent";
 
 const MyProjects = () => {
@@ -17,6 +18,7 @@ const MyProjects = () => {
   const [isHoveringTodo, setIsHoveringTodo] = useState(false);
   const [isHoveringMeteorological, setIsHoveringMeteorological] =
   useState(false);
+  const [isHoveringRestaurantApp, setIsHoveringRestaurantApp] = useState(false)
 
   const hoverHandler = (project) => {
     project.setterFnc(!project.isHovering);
@@ -85,6 +87,17 @@ const MyProjects = () => {
       },
       isHovering: isHoveringMeteorological,
       setterFnc: setIsHoveringMeteorological,
+    },
+    {
+      projectName: "Restaurant App",
+      imgSrc: restaurant,
+      text: "With this app I started to learn to work with Firebase and Tailwind CSS and I also make it with redux. I can also add products to the database, which only works when logged in from my e-mail address.",
+      links: {
+        projectLink: "https://kpeti962.github.io/restaurantWithFirebase/",
+        githubLink: "https://github.com/Kpeti962/restaurantWithFirebase",
+      },
+      isHovering: isHoveringRestaurantApp,
+      setterFnc: setIsHoveringRestaurantApp,
     },
   ];
 

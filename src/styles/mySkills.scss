@@ -4,8 +4,8 @@
 .skillsContainer {
   text-align: center;
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  column-gap: 20px;
+  grid-template-columns: auto auto auto;
+  column-gap: 100px;
 
   .skillCard {
     display: flex;
@@ -14,6 +14,7 @@
     h4 {
       text-align: center;
       width: 80%;
+      color: rgb(214, 214, 214);
     }
   }
 
