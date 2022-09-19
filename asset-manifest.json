@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/firstPortfolio/static/css/main.05fc0917.css",
-    "main.js": "/firstPortfolio/static/js/main.1c84f2be.js",
+    "main.css": "/firstPortfolio/static/css/main.0a4fbcd1.css",
+    "main.js": "/firstPortfolio/static/js/main.d31f40d0.js",
     "static/js/787.1ed0c42c.chunk.js": "/firstPortfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/restaurant.png": "/firstPortfolio/static/media/restaurant.373cc59b9df58905e8b7.png",
     "static/media/petipizza.png": "/firstPortfolio/static/media/petipizza.593cac8e18da17eecbf1.png",
     "static/media/todo.png": "/firstPortfolio/static/media/todo.39b19cec287772862f8e.png",
     "static/media/weather.png": "/firstPortfolio/static/media/weather.2c0e1f4d8f8aa8d7ae28.png",
@@ -12,15 +13,17 @@
     "static/media/shoppingList.png": "/firstPortfolio/static/media/shoppingList.08f3dd253a86a34e4c98.png",
     "static/media/html.png": "/firstPortfolio/static/media/html.5f77e90e11607bf9b3e1.png",
     "static/media/css.png": "/firstPortfolio/static/media/css.de88f6dc082cdf8bbe67.png",
+    "static/media/tailwind.png": "/firstPortfolio/static/media/tailwind.9440f6b718743116ccb0.png",
+    "static/media/firebase.png": "/firstPortfolio/static/media/firebase.16398da0b714dc161c2a.png",
     "static/media/pizzaComparison.png": "/firstPortfolio/static/media/pizzaComparison.f8e4a51e528581eb369c.png",
     "static/media/vanillasJS.png": "/firstPortfolio/static/media/vanillasJS.940765f470ddd506af04.png",
     "index.html": "/firstPortfolio/index.html",
-    "main.05fc0917.css.map": "/firstPortfolio/static/css/main.05fc0917.css.map",
-    "main.1c84f2be.js.map": "/firstPortfolio/static/js/main.1c84f2be.js.map",
+    "main.0a4fbcd1.css.map": "/firstPortfolio/static/css/main.0a4fbcd1.css.map",
+    "main.d31f40d0.js.map": "/firstPortfolio/static/js/main.d31f40d0.js.map",
     "787.1ed0c42c.chunk.js.map": "/firstPortfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05fc0917.css",
-    "static/js/main.1c84f2be.js"
+    "static/css/main.0a4fbcd1.css",
+    "static/js/main.d31f40d0.js"
   ]
 }
